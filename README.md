@@ -23,3 +23,11 @@ English and Spanish currently. If you want to contribute something else feel fre
 - composeApp/src/commonMain/composeResources/values-{locale}/strings.xml
 - iosApp/widget/Localizable.xcstrings (edit in Xcode)
 - iosApp/iosApp/InfoPlist.xcstrings (edit in Xcode)
+
+## Schedules
+
+I am currently maintaining alerts and schedule json files to keep the app up-to-date with schedule changes and account for things like PATH not filtering out trains at 9th and 23rd overnight when the stations are closed. Feel free to use these in your own app if you'd like.
+
+- [Alerts](https://github.com/steviek/PathWidgetXplat/blob/main/alerts.json)
+- [Regular Schedule](https://github.com/steviek/PathWidgetXplat/blob/main/schedule.json)
+- [Schedule override for weekend changes](https://github.com/steviek/PathWidgetXplat/blob/main/schedule_override.json)
